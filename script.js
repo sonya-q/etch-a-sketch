@@ -14,7 +14,10 @@ function createSecondGrids(columnDiv){
     const insideDiv = document.createElement("div");
     columnDiv.appendChild(insideDiv);
     insideDiv.classList.add("insideDiv");
+
+    insideDiv.addEventListener("click", () =>{
+      insideDiv.classList.add("clicked");
+    })
   }
 }
-
 createFirstGrids();
