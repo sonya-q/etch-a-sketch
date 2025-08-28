@@ -17,6 +17,7 @@
   color: red;
   border-style: solid;
   border-color: blue;
+  margin: -1px;
 
   flex: 1;
   box-sizing: border-box;
@@ -29,6 +30,7 @@
   color: greenyellow;
   border-style: solid;
   border-color: snow;
+  margin: -1px;
 
   flex: 1;
   box-sizing: border-box;
